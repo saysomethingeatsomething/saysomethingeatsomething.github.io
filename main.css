@@ -38,3 +38,7 @@ header p {
 a {
 	color: #444;
 }
+
+h1 strong {
+	font-weight: 900;
+}

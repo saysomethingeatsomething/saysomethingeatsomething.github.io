@@ -1,0 +1,40 @@
+html {
+	background-image: url(weave.png);
+	background-repeat: repeat;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	font-size: 6em;
+}
+
+header p {
+	margin-top: -2em;
+	font-size: 2em;
+}
+
+.section {
+	border-radius: 0.5em;
+
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-bottom: 0.1em;
+
+	background-color: rgba(255,255,255,0.7);
+}
+
+.section h2 {
+	padding-top: 0.5em;
+}
+
+a {
+	color: #444;
+}

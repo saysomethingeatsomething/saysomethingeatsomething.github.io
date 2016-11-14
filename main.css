@@ -6,7 +6,7 @@ html {
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	max-width: 750px;
-	width: 50%;
+	width: 65%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -101,12 +101,12 @@ footer ul {
 .resources {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 0.5em;
+	flex-wrap: wrap;
 }
 
 .resourceimage {
-	height: 100px;
-	width: 133px;
+	height: 75px;
+	min-width: 100px;
 	background-color: gray;
 	margin-right: 1em;
 	border-radius: 0.25em;
@@ -120,6 +120,8 @@ footer ul {
 	margin-right: 10px;
 	background-color: #ddd;
 	border-radius: 0.25em;
+	width: 200px;
+	margin-bottom: 0.5em;
 }
 
 .resources a {

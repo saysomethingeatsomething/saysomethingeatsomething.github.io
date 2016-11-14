@@ -5,7 +5,8 @@ html {
 
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	width: 750px;
+	max-width: 750px;
+	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -13,6 +14,7 @@ body {
 h1 {
 	font-size: 6em;
 	line-height: 1.0;
+	margin-top: 0.5em;
 }
 
 header p {
@@ -42,4 +44,85 @@ a {
 
 h1 strong {
 	font-weight: 900;
+}
+
+.social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 0.5em;
+}
+
+.social .twitter, .social .facebook {
+	height: 30px;
+	background-color: #ccdfff;
+	border: 3px solid #a5c7ff;
+	border-radius: 0.25em;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 5px;
+	/*margin-right: 20px;*/
+}
+
+.social img {
+	height: 25px;
+}
+
+.social a {
+	text-decoration: none;
+	color: black;
+}
+
+footer li {
+	display: inline;
+}
+
+footer ul {
+	text-align: center;
+	font-size: 75%;
+}
+
+.twitter, .facebook {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.socialimage, .socialtext {
+	margin-right: 1em;
+	font-weight: 500;
+}
+
+.socialtext {
+	margin-top: -2px;
+}
+
+.resources {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 0.5em;
+}
+
+.resourceimage {
+	height: 100px;
+	width: 133px;
+	background-color: gray;
+	margin-right: 1em;
+	border-radius: 0.25em;
+}
+
+.resources .resource {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #ddd;
+	border-radius: 0.25em;
+}
+
+.resources a {
+	text-decoration: none;
+	color: black;
 }

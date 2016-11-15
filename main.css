@@ -147,19 +147,6 @@ footer ul {
 	flex-wrap: wrap;
 }
 
-.resourceimage {
-	height: 75px;
-	width: 100px;
-	background-color: gray;
-	margin-right: 1em;
-	border-radius: 0.25em;
-}
-
-.resourceimage img {
-	max-width: 100px;
-	height: auto;
-}
-
 .resources .resource {
 	display: flex;
 	justify-content: center;
@@ -168,7 +155,7 @@ footer ul {
 	margin-right: 10px;
 	background-color: #ccdfff;
 	border-radius: 0.25em;
-	width: 200px;
+	width: 220px;
 	margin-bottom: 0.5em;
 	border: 3px solid #a5c7ff;
 	transition: 0.2s;
@@ -183,6 +170,27 @@ footer ul {
 .resources a {
 	text-decoration: none;
 	color: black;
+}
+
+.resourceimage {
+	height: 75px;
+	width: 100px;
+	background-color: gray;
+	/*margin-right: 1em;*/
+	border-radius: 0.25em;
+	margin-left: 0px;
+	margin-right: auto;
+}
+
+.resourceimage img {
+	width: 100px;
+	height: 75px;
+}
+
+.resourcetext {
+	width: 100px;
+	margin-left: auto;
+	margin-right: 0px;
 }
 
 .star {

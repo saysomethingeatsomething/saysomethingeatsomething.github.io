@@ -21,7 +21,7 @@ h1 {
 h3 {
 	font-size: 3em;
 	line-height: 1.0;
-	margin-top: -0.8em;
+	margin-top: -1.2em;
 }
 
 header p {
@@ -44,8 +44,8 @@ header p {
 }
 
 .assignment {
-	margin-top: 2em;
-	margin-bottom: 2em;
+	margin-top: 3em;
+	margin-bottom: 3em;
 	font-size: 125%;
 	border: 2px solid black;
 }

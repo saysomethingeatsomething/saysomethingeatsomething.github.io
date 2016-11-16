@@ -1,11 +1,7 @@
 
 @font-face {
-  font-family: 'Comic Neue';
-  src: url('fonts/ComicNeue-Bold.eot');
-  src: url('fonts/ComicNeue-Bold.eot?#iefix') format('embedded-opentype'),
-       url('fonts/ComicNeue-Bold.woff2') format('woff2'),
-       url('fonts/ComicNeue-Bold.woff') format('woff'),
-       url('fonts/ComicNeue-Bold.ttf')  format('truetype');
+  font-family: 'Comic Sans Web';
+  src: url('fonts/Comic Sans MS.ttf');
   font-weight: 400;
 }
 
@@ -24,7 +20,7 @@ body {
 }
 
 h1, h2, h3 {
-	font-family: "Comic Sans", "Comic Sans MS", "Comic Neue", sans-serif;
+	font-family: "Comic Sans", "Comic Sans MS",  "ChalkboardSE-Regular", "Comic Sans Web", sans-serif;
 }
 
 h1 {
@@ -240,7 +236,7 @@ footer ul {
 	
 	background-color: black;
 	color: white;
-	font-family: "Comic Sans", "Comic Sans MS", "ChalkboardSE-Regular", "Comic Neue", sans-serif;
+	font-family: "Comic Sans", "Comic Sans MS", "ChalkboardSE-Regular", "Comic Sans Web", sans-serif;
 
 	transition: 0.4s;
 

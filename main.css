@@ -254,16 +254,16 @@ footer a {
 
 @media only screen and (max-device-width: 640px) {
 	body {
-		width: 100%;
+		width: 90%;
 	}
 
 	.button {
-		height: 200px;
+		height: 75px;
 		width: 400px;
 	}
 
 	.social .twitter, .social .facebook {
-		height: 75px;
+		height: 60px;
 	}
 
 	h1 {

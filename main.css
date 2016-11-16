@@ -254,6 +254,14 @@ footer a {
 
 @media only screen and (max-device-width: 640px) {
 	body {
-		width: 100%;
+		width: 400px;
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+
+	header h2 {
+		font-size: 2em;
 	}
 }

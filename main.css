@@ -267,10 +267,14 @@ footer a {
 	}
 
 	h1 {
-		font-size: 3em;
+		font-size: 2.5em;
 	}
 
 	header h2 {
-		font-size: 2em;
+		font-size: 1.75em;
+	}
+
+	h2 {
+
 	}
 }

@@ -259,7 +259,8 @@ footer a {
 
 	.button {
 		height: 75px;
-		width: 400px;
+		width: 300px;
+		font-size:: 1.5em;
 	}
 
 	.social .twitter, .social .facebook {
@@ -272,9 +273,5 @@ footer a {
 
 	header h2 {
 		font-size: 1.75em;
-	}
-
-	h2 {
-
 	}
 }

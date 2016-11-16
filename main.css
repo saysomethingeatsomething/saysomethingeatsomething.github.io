@@ -256,14 +256,22 @@ footer a {
 	body {
 		width: 400px;
 		width: 100%;
-		font-size: 200%;
+		font-size: 250%;
 	}
 
-	h1 {
+	.button {
+		height: 175px;
+	}
+
+	.social .twitter, .social .facebook {
+		height: 75px;
+	}
+
+/*	h1 {
 		font-size: 3em;
 	}
 
 	header h2 {
 		font-size: 2em;
-	}
+	}*/
 }

@@ -251,7 +251,7 @@ footer a {
 	border-color: #088400;
 	transition: 0.4s;
 }
-
+/*
 @media only screen and (max-device-width: 640px) {
 	body {
 		width: 400px;
@@ -274,4 +274,4 @@ footer a {
 	header h2 {
 		font-size: 2em;
 	}
-}
+}*/

@@ -259,16 +259,16 @@ footer a {
 
 	.button {
 		height: 75px;
-		width: 300px;
+		width: 400px;
 		font-size:: 1.5em;
 	}
 
 	.social .twitter, .social .facebook {
-		height: 60px;
+		height: 50px;
 	}
 
 	h1 {
-		font-size: 2.5em;
+		font-size: 2.75em;
 	}
 
 	header h2 {

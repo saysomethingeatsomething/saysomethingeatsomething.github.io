@@ -251,16 +251,15 @@ footer a {
 	border-color: #088400;
 	transition: 0.4s;
 }
-/*
+
 @media only screen and (max-device-width: 640px) {
 	body {
-		width: 400px;
 		width: 100%;
-		font-size: 250%;
 	}
 
 	.button {
-		height: 175px;
+		height: 200px;
+		width: 400px;
 	}
 
 	.social .twitter, .social .facebook {
@@ -274,4 +273,4 @@ footer a {
 	header h2 {
 		font-size: 2em;
 	}
-}*/
+}

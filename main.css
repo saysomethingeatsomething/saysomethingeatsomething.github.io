@@ -253,7 +253,7 @@ footer a {
 
 .step {
 	display: flex;
-	align-items: flex-start;
+	justify-content: space-between;
 	height: 60px;
 	margin-bottom: 0.5em;
 }
@@ -273,6 +273,10 @@ footer a {
 	height: 60px;
 	width: auto;
 	display: inline;
+}
+
+.step .text {
+	width: 60%;
 }
 
 .twoup {

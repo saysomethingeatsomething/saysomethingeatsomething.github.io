@@ -207,8 +207,8 @@ footer ul {
 
 .star {
 	position: absolute;
-	right: -60px;
-	top: 15px;
+	right: -65px;
+	top: 10px;
 	width: 100px;
 	height: 100px;
 	background: url(images/star.png);

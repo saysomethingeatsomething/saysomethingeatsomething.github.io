@@ -99,6 +99,7 @@ h1 strong {
 	align-items: center;
 	width: 100%;
 	margin-bottom: 0.5em;
+	flex-wrap: wrap;
 }
 
 .social .twitter, .social .facebook {
@@ -141,11 +142,13 @@ footer ul {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 1em;
 }
 
 .socialimage, .socialtext {
 	margin-right: 1em;
 	font-weight: 500;
+	min-width: 2em;
 }
 
 .socialtext {
@@ -204,7 +207,7 @@ footer ul {
 
 .star {
 	position: absolute;
-	left: -80px;
+	right: -60px;
 	top: 15px;
 	width: 100px;
 	height: 100px;
@@ -246,6 +249,48 @@ footer a {
 	background-color: #077000;
 	border-color: #088400;
 	transition: 0.4s;
+}
+
+.step {
+	display: flex;
+	align-items: flex-start;
+	height: 60px;
+	margin-bottom: 0.5em;
+}
+
+.step .number {
+	min-width: 40px;
+	font-size: 2em;
+	margin-left: 1em;
+}
+
+.step .image {
+	width: 90px;
+	margin-right: 2em;
+}
+
+.step .image img {
+	height: 60px;
+	width: auto;
+	display: inline;
+}
+
+.twoup {
+	display: flex;
+	justify-content: space-between;
+	margin-top: -0.5em;
+}
+
+.twoup .section h2 {
+	margin-top: 0em;
+}
+
+.instructions {
+	width: 65%;
+}
+
+.share {
+	width: 25%;
 }
 
 @media only screen and (max-device-width: 640px) {

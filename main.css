@@ -14,7 +14,7 @@ html {
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	max-width: 750px;
-	min-width: 630px;
+	min-width: 680px;
 	width: 65%;
 	margin-left: auto;
 	margin-right: auto;
@@ -325,13 +325,10 @@ footer a {
 		padding-top: 0.5em;
 	}
 
-	html {
-		width: 480px;
-	}
-
 	body {
-		width: 400px;
-		position: relative;
+		width: 20%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.step .text {

@@ -300,7 +300,7 @@ footer a {
 
 @media only screen and (max-device-width: 640px) {
 	.step {
-		height: 75px;
+		height: 85px;
 	}
 
 	.instructions {

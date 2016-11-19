@@ -328,6 +328,10 @@ footer a {
 		width: 80%;
 	}
 
+	html {
+		width: 480px;
+	}
+
 	.button {
 		height: 65px;
 		width: 350px;

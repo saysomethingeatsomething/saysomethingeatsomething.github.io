@@ -299,24 +299,21 @@ footer a {
 }
 
 @media only screen and (max-device-width: 640px) {
-/*	.step {
-		height: 100px;
-	}*/
+	.step {
+		height: 75px;
+	}
 
 	.instructions {
-		width: 100%;
+		width: 92%;
 	}
 
 	.share {
-		width: 100%;
-	}
-
-	main, header, footer {
-		width: 75%;
+		width: 92%;
 	}
 
 	.twoup {
 		display: block;
+		position: relative;
 		margin-top: 0em;
 		width: 100%;
 	}
@@ -326,10 +323,8 @@ footer a {
 	}
 
 	body {
-		width: 400px;
-		margin-left: 2em;
-		margin-right: 2em;
-
+		width: 80%;
+		min-width: 100px;
 	}
 
 	html {
@@ -340,6 +335,10 @@ footer a {
 		width: 60%;
 	}
 
+	.step .number {
+		min-width: 25px;
+	}
+
 	.button {
 		height: 65px;
 		width: 350px;
@@ -347,7 +346,8 @@ footer a {
 	}
 
 	.social .twitter, .social .facebook {
-		height: 50px;
+		height: 40px;
+		width: 220px;
 	}
 
 	h1 {
@@ -363,6 +363,15 @@ footer a {
 		top: 25px;
 		width: 60px;
 		height: 60px;
+	}
+
+	.step .number {
+		margin-left: 0.2em;
+		margin-right: 0.5em;
+	}
+
+	.step .image {
+		margin-right: 1em;
 	}
 
 }

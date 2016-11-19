@@ -312,7 +312,7 @@ footer a {
 	}
 
 	main, header, footer {
-		width: 80%;
+		width: 75%;
 	}
 
 	.twoup {
@@ -326,7 +326,7 @@ footer a {
 	}
 
 	body {
-		/*width: 80%;*/
+		width: 400px;
 		margin-left: 2em;
 		margin-right: 2em;
 

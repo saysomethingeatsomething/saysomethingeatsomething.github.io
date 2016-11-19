@@ -329,6 +329,10 @@ footer a {
 		position: relative;
 	}
 
+	.step .text {
+		width: 50%;
+	}
+
 	/*html {
 		width: 480px;
 	}*/

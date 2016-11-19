@@ -299,10 +299,18 @@ footer a {
 }
 
 @media only screen and (max-device-width: 640px) {
-	.step {
+/*	.step {
 		height: 100px;
+	}*/
+
+	.instructions {
+		width: 100%;
 	}
-	
+
+	.share {
+		width: 100%;
+	}
+
 	.twoup {
 		display: block;
 		margin-top: 0em;

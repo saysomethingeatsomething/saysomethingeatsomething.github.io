@@ -311,7 +311,7 @@ footer a {
 		width: 100%;
 	}
 
-	.section {
+	main, header {
 		width: 75%;
 	}
 

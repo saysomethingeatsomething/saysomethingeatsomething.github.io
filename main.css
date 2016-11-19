@@ -311,6 +311,10 @@ footer a {
 		width: 100%;
 	}
 
+	.section {
+		width: 400px;
+	}
+
 	.twoup {
 		display: block;
 		margin-top: 0em;

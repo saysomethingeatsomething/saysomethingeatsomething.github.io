@@ -326,7 +326,8 @@ footer a {
 	}
 
 	body {
-		width: 80%;
+		/*width: 80%;*/
+		width: 400px;
 		position: relative;
 	}
 

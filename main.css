@@ -311,9 +311,9 @@ footer a {
 		width: 100%;
 	}
 
-	/*.section {
-		width: 400px;
-	}*/
+	.section {
+		width: 75%;
+	}
 
 	.twoup {
 		display: block;

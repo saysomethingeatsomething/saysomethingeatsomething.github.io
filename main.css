@@ -325,12 +325,13 @@ footer a {
 	}
 
 	body {
-		width: 400px;
+		width: 80%;
+		position: relative;
 	}
 
-	html {
+	/*html {
 		width: 480px;
-	}
+	}*/
 
 	.button {
 		height: 65px;

@@ -325,12 +325,11 @@ footer a {
 		padding-top: 0.5em;
 	}
 
-	body {
-		/*width: 80%;*/
+/*	body {
 		width: 400px;
 		position: relative;
 	}
-
+*/
 	.step .text {
 		width: 60%;
 	}

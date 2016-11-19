@@ -318,6 +318,7 @@ footer a {
 	.twoup {
 		display: block;
 		margin-top: 0em;
+		width: 100%;
 	}
 
 	.twoup .section h2 {
@@ -325,12 +326,12 @@ footer a {
 	}
 
 	body {
-		width: 60%;
+		width: 80%;
 		position: relative;
 	}
 
 	.step .text {
-		width: 50%;
+		width: 60%;
 	}
 
 	/*html {
